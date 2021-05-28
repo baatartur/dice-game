@@ -41,7 +41,7 @@ document.querySelector(".btn-hold").addEventListener("click", function() {
     if (scores[activePlayer] >= 100) {
       isNewGame = false;
       document.getElementById("name-" + activePlayer).textContent =
-        " Та хожилоо ";
+        " Та хожлоо ";
       document
         .querySelector(".player-" + activePlayer + "-panel")
         .classList.add("winner");
